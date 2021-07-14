@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: 'Nunito', sans-serif;
 }
+
 /* navbar */
 nav {
     margin-left: 130px;
@@ -185,4 +186,122 @@ p.match-deatils{
     font-size: 20px;
     color: black;
     margin-top: 30px;
+}
+
+/* media-css */
+
+@media screen and (max-width:767px) {
+    .nav{
+        width: 767px;
+        display: none;
+    }
+    .nav>ul, li,  a {
+        display: none;
+    }
+    .login{
+        
+    }
+    .banner{
+        width: 767px;
+        flex-direction: column;
+    }
+    .banner-left{
+        margin-left: 50px;
+    }
+    .banner-right{
+        margin: 0;
+    }
+    .banner-right img{
+        width: 370px;
+        height: 350px;
+        margin-top: 20px;
+    }
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    /* match-banner */
+    .match-banner{
+        width: 767px;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .match-deatils{
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .latest-title h1, p{
+        margin-left: 60px;    
+    }
+    .latest-news{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .details p{
+        margin-left: 0px; 
+    }
+    .footer-logo img{
+        width: 303px;
+        height: 110px;
+    }
+    
+}
+
+@media screen and (max-width:1023px) {
+    .nav{
+        width: 1023px;
+        display: none;
+    }
+    .nav>ul, li,  a {
+        display: none;
+    }
+    .login{
+        
+    }
+    .banner{
+        width: 1023px;
+        flex-direction: column;
+    }
+    .banner-left{
+        margin-left: 50px;
+    }
+    h1.title {
+        margin-left: 80px;
+    }
+    .banner-right{
+        margin: 0;
+    }
+    .banner-right img{
+        margin-left: 80px;
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+        margin: 0px;
+    }
+
+    /* match-banner */
+    .match-banner{
+        width: 1023px;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .latest-title h1, p{
+        margin-left: 60px;    
+    }
+    .latest-news{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .details p{
+        margin-left: 0px; 
+    }
+    .footer-logo img{
+        width: 303px;
+        height: 110px;
+    }
 }
