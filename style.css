@@ -4,6 +4,9 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 /* navbar */
+nav {
+    margin-left: 130px;
+}
 nav>ul {
     display: flex;
     align-items: center;
@@ -13,7 +16,7 @@ nav>ul {
 nav li {
     list-style: none;
     margin-top: 42px;
-    margin-left: 115px;
+    margin-right: 30px;
 }
 
 nav li a {
@@ -23,7 +26,7 @@ nav li a {
     font-size: 16px;
 }
 .login{
-    margin-left: 400px;
+    margin-left: 450px;
     background-color: #E02C6D;
     padding: 10px;
     border-radius: 5px;
@@ -47,14 +50,14 @@ nav li a {
 }
 h1.title {
     color: white;
-    font-size: 70px;
+    font-size: 64px;
 }
 a.live-button {
     background-color: #E02C6D;
     text-decoration: none;
-    padding: 15px 25px;
+    padding: 12px 24px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 5px;
 }
 i.fas.fa-arrow-right {
@@ -62,7 +65,8 @@ i.fas.fa-arrow-right {
 }
 .banner-right{
     width: 50%;
-    margin-right: 150px;
+    margin-right: 90px;
+    margin-left: 30px;
 }
 .banner-right img{
     width: 556px;
